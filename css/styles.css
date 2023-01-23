@@ -1,0 +1,122 @@
+/* Universal Styles */
+body {
+  min-height: 100vh;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+}
+
+.hide {
+  display: none !important;
+}
+
+#img-menu-hamburger, .list-item-menu-link > a:hover, .list-item-menu-link > button:hover {
+  cursor: pointer;
+}
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  position: relative;
+}
+
+.logo {
+  width: 105px;
+  height: 32px;
+}
+
+#img-menu-hamburger {
+  width: 24px;
+  height: 20px;
+}
+
+nav > div {
+  width: calc(100% - 2rem);
+  position: absolute;
+  top: 4.5rem;
+  left: 1rem;
+  padding: 2rem 1rem;
+  background-color: hsl(39, 100%, 89%);
+  color: hsl(0, 0%, 0%);
+  border: 2px solid hsl(0, 0%, 0%);
+  border-radius: 4px;
+}
+
+.list-menu {
+  text-align: center;
+}
+
+.list-item-menu-link {
+  margin-bottom: 1rem;
+}
+
+.list-item-menu-link:last-of-type {
+  margin-bottom: 0;
+}
+
+.list-item-menu-link > a:hover {
+  color: hsl(39, 100%, 50%);
+}
+
+.list-item-menu-link > button {
+  width: 100%;
+  display: block;
+  padding: .5rem;
+  border: 2px solid hsl(0, 0%, 0%);
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 4px;
+}
+
+.list-item-menu-link > button:hover {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+}
+/* Main */
+main, footer {
+  padding: 0 1rem;
+}
+
+#img-hero, .img-article {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.div-landing-page > div > h2, .div-extra-article > div > h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.div-landing-page > div > div, .div-extra-article > div > div {
+  margin-bottom: 1rem;
+  font-size: 19px;
+}
+
+.div-article-author {
+  display: flex;
+  align-items: center;
+}
+.div-article-author > img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.div-article-author > div {
+  font-size: 1rem;
+}
+
+.div-article-author > div > h3 {
+  font-weight: 700;
+}
+
+/* Footer */
+footer {
+  padding: 2rem 1rem;
+}
+
+footer > h2 {
+  margin-bottom: 1rem;
+}
